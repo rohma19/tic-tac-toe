@@ -1,0 +1,34 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f0f0f0; /* Optional: Add a background color */
+}
+
+.board-cell {
+  border: 1px solid #666;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 32px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  width: 100px;
+}
+
+.board-cell .content {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
